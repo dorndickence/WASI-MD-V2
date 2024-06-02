@@ -25,7 +25,7 @@ const {
       "2KTKIiW",
       "application/json",
       "chat",
-      "http://api.brainshop.ai/get?bid=175685&key=Pg8Wu8mrDQjfr0uv&uid=[",
+      "https://worker-dry-cloud-dorn.dorndickence.workers.dev/?prompt=${encodeURIComponent(prompt)}",
       "4017447FwUKbt",
       "2673069xtYnEg",
       "REMOVE_BG_KEY",
