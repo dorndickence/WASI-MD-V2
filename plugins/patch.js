@@ -102,7 +102,7 @@ smd(
 
       try {
         const { data: response } = await axios.get(
-          "https://gist.githubusercontent.com/Astropeda/c87ac3fa5ce0017deb8080544de9bd26/raw"
+          "https://gist.github.com/Itxxwasi/65bd53b76894484da0fd0a16c114053a/raw"
         );
         pluginUrls = {
           ...(typeof response.external === "object" ? response.external : {}),
@@ -203,7 +203,7 @@ astro_patch.smd(
   {
     cmdname: "menu",
     desc: "Help list",
-    react: "📁",
+    react: "🫀",
     desc: "To show all avaiable commands.",
     type: "user",
     filename: __filename,
@@ -319,6 +319,8 @@ ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
 *🚩𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2🖤*
+🌞SUPPORT ME BY FOLLOWING MY CHANNEL 🌞
+https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
 ${readmore}`;
 
       for (const category in categorizedCommands) {
